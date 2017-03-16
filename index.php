@@ -1,3 +1,4 @@
+<!--spaghettified for now, improvements to come
 
 <?php
     $db = mysqli_connect('127.0.0.1','ticho','400RAY4201db3rg!','slovak_english')
