@@ -65,7 +65,7 @@
                          <img id="image-hint" style="display: none;" class="img-plain img-responsive" src="../slovak-english/images/'
                          .$word_row['image']
                           .'">
-                          <input type="button" id="show-hide-image" value="Show Image" />
+                          <input type="button" id="show-hide-image" value="Show Image Hint" />
                       </div>';
                       $english_answer = $word_row['english'];
                       $correct_answer = "Dobrá práca!";
@@ -122,12 +122,12 @@
                     var imageButtonValue = $.trim($("#show-hide-image").attr("value"));
                     console.log("image-button-value: " + imageButtonValue);
                     var english_entry = $.trim($("#english_entry").val());
-                    if (imageButtonValue === "Show Image") {
+                    if (imageButtonValue === "Show Image Hint") {
                         $("#show-hide-image").attr("value", "Hide Image");
                         $("#image-hint").css("display", "inline-block");
                     }
                     else if (imageButtonValue === "Hide Image") {
-                        $("#show-hide-image").attr("value", "Show Image");
+                        $("#show-hide-image").attr("value", "Show Image Hint");
                         $("#image-hint").css("display", "none");
                     };
                });
