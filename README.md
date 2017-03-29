@@ -11,7 +11,7 @@ Screen shots:
 ![app screen shot 2](https://github.com/rijarobinson/slovak-flash-cards/blob/master/lang-sshots/app-scr-02.png "App Screen Shot 2")
 
 
-**Start typing (will display "Keep Trying!" until a match is found**
+**Start typing (will display "Keep Trying!" until a match is found)**
 
 
 ![app screen shot 3](https://github.com/rijarobinson/slovak-flash-cards/blob/master/lang-sshots/app-scr-03.png "App Screen Shot 3")
